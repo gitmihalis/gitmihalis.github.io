@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta description="Mihalis Fthenos | Web programmer - Self taught developer from Hamilton, ON experienced with JS / HTML / CSS / NODEJS">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet"> 
+
+  <style>
+  .rainbow-wordmark {
+  position: relative;
+  margin: 100px 10%;
+  min-width: 200px;
+  max-width: 800px;
+}
+
+.rainbow-wordmark__canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 110%; /* canvas is 1100px, img is 1000 */
+}
+
+.rainbow-wordmark__image {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.rainbow-wordmark__overlay {
+  position: relative;
+  width: 40%;
+  bottom: 1em;
+  left: 52%;
+  opacity: 0;
+  transition:opacity 1s ease-in-out;
+}
+
+.footer {
+  height: 150px;
+  background: #455DE6;
+  width: 1000%;
+  position: absolute;
+  left: -100px;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+  background: #ddd;
+  font-family: "Share Tech Mono", monospace;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  top: -25em;
+  left: -18.75em;
+  bottom: 0;
+  width: 200%;
+  z-index: -1;
+  height: 33rem;
+  transform: skewY(6deg);
+  background: #455DE6;
+}
+
+.employment .container {
+  margin: 8.14em 0;
+}
+
+.spreader {
+  display: flex;
+  justify-content: space-between;
+}
+.righter {
+  text-align: right;
+}
+
+.inline-list li{
+  display: inline;
+}
+.inline-list li a {
+  text-decoration: none;
+}
+.inline-list li a:hover {
+  opacity: .4;
+}
+.inline-list li i.icon {
+  margin: -20px 10px 5px auto;
+  color: black;
+}
+
+h3 {
+  margin-top: 3.14em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h5 {
+  text-decoration: underline;
+}
+
+.seo-only {
+  position: absolute;
+  left: -99999px;
+}
+
+hr {
+  margin: 3.14em 0;
+}
+
+div {
+  color: #111;
+}
+
+  </style>
+</head>
+<body>
+    <h1 class="rainbow-wordmark">
+        <canvas class="rainbow-wordmark__canvas" width="1100" height="400"></canvas>
+        <img class="rainbow-wordmark__image" src="./wordmark-white.png" alt="Mihalis" />
+        <img class="rainbow-wordmark__overlay" src="./lastname.png">
+      </h1>
+  <div class="container">
+    <div class="columns">
+      <div class="column col-2"></div>
+      <div class="column col-8">
+          <main>
+              <header>
+                
+                <section id="summary">
+                  <h3 class="seo-only">Summary</h3>
+                  
+                  <p>Self taught programmer who’s proficient with JavaScript and a wide array of web tools / frameworks. Created logos, content, and websites for small businesses before going on to develop rapid prototypes with NodeJS &amp; Ruby on Rails. Built automation software that's saved time on workloads by > 64%. Currently interested in using Golang to deploy web-crawlers to do market forecasting.</p>
+                  <ul class="inline-list">
+                      <li>
+                        <a href="mailto:mihalisfthenos@icloud.com">
+                            <i class="icon icon-2x icon-mail"></i>
+                        </a>
+                      </li>
+                
+                
+                      <li>
+                        <a href="https://www.linkedin.com/in/mihalis-fthenos-68ab80102/">
+                          <img src="./In-Black-34px-R.png" alt="linked-in">
+                        </a>
+                      </li>
+                
+                
+                      <li>
+                        <a href="https://github.com/gitmihalis">
+                          <img src="./GitHub-Mark-32px.png" alt="github">
+                        </a>
+                      </li>
+                    </ul>                
+                <h2 class="seo-only">Web Developer: CV</h2>
+                </section>                
+                
+              </header>
+            
+            
+              <section id="employment">
+                <h3>Employment</h3>
+
+                <hr>
+            
+            
+
+              <div class="employment">
+
+                <div class="container">
+                  <div class="spreader">
+                    <div>
+                        <h4><a href="http://investorsgroup.com">Investors Group Financial</a></h4>
+                        <h5>Web Developer</h5>
+                        <div class="dates"><small>Oct 2017 to Current</small></div>
+                      </div>
+                
+                
+                      <div class="righter">
+                        
+                          <div>Toronto, ON</div>
+  
+                        
+                      </div>
+                  </div>
+                  <div>
+                    <p> As part of the Digital Marketing team, I develop and maintain several blogs, employee resources and our Advisor's social media hub.
+                    I developed an ElectronJS app to used in houss to automate text conversion of word documents to HTML for publication, reducing time spent per task by ~64%.
+                      <ul class="righter inline-list">
+                        <li><strong>Stack:</strong></li>
+                        <li>ASP.NET /</li>
+                        <li>Gulp /</li>
+                        <li>jQuery </li> 
+                      </ul>
+                    </p>
+                  </div>                  
+                </div>
+
+            
+                
+               <div class="container">
+                 <div class="spreader">
+                   <div>
+                     <h4>Eastern C.A.V.E. Cabling</h4>
+                     <h5>Field Technician</h5>
+                     <div class="dates"><small>Mar 2017 to Jun 2017</small></div>
+                   </div>
+             
+             
+                   <div class="righter">
+                     
+                     <div>Hamilton, ON</div>
+                   </div>
+                   </div>
+             
+             
+                   <div>
+                     <p>Part of a fleet who's duties were to install,
+                     service &amp; repair Point-of-Sale systems for customers; mainly representing TD Merchant Services.</p>
+                     <ul>
+                       <li>Warehouse + inventory management</li>
+                       <li>Answer service calls and complete scheduled installations</li>
+                       <li>Cellular, Broadband &amp; DSL setup and configution</li>
+                       <li>Analyze and troubleshooting technical issues</li>
+                       <li>Maintain great relations with customers</li>
+                     </ul>
+                   </div>
+               </div> 
+
+                  
+                <div class="container">
+                  <div class="spreader">
+
+                    <div>
+                      <h4><a href="http://vancouversleepsolutions.com">Vancouver Sleep Solutions</a></h4>
+                      <h5>Web Developer</h5>
+                      <div class="dates"><small> Feb 2017 to Mar 2017</small></div>
+                    </div>
+              
+                    <div>
+                      <div class="righter">Vancouver, BC</div>
+                    </div>
+                  </div>
+            
+                  <div>
+                    <p>Added new pages to a client’s existing Wordpress website,
+                    introducing a new service into their application. Installed and edited
+                    plugins for an interactive quiz and wrote php scripts which automated email responses.</p>
+                    <ul class="inline-list righter">
+                      <li><strong>Stack:</strong></li>
+                      <li>Wordpress</li>
+                    </ul>
+                  </div>
+
+                </div>
+
+                  
+
+                <div class="container">
+                  
+                  <div class="spreader">
+
+                    <div>
+                      <h4>BC SPCA Thrift Stores</h4>
+                      <h5>Sales &amp; Digital Marketing</h5>                      
+                      <span class="dates"><small>2015 to 2017</small></span>
+                    </div>            
+            
+                    <div>                      
+                        <div class="righter">Vancouver, BC</div>
+                    </div>
+              
+                  </div>
+                  <div>
+                    <p>Developed an online presence for the SPCA Thrift stores in North
+                    Vancouver and East Vancouver by building and branding static
+                    websites, as well as driving their social media accounts. I learned that
+                    customers wanted to be alerted when certain items were donated and we
+                    so we created an Instagram account for new arrivals. </p>
+                  </div>
+                  <ul class="inline-list righter">
+                    <li><strong>Stack:</strong></li>
+                    <li>HTML</li>
+                    <li>SASS</li>
+                    <li>jQuery</li>
+                  </ul>
+                </div>
+
+                  
+            <div class="container">
+
+              <div class="spreader">
+                <div>
+                  <h4>Vancouver Suntan + Banana Tans + Davie Tanning</h4>
+                  <h5>Service Technician</h5>
+                  <div class="dates"><small>2015 to 2017</small></div>
+                </div>
+                
+                
+                <div>
+                  <div class="righter">Vancouver, BC</div>
+                </div>
+              </div>
+        
+              <div>
+                <p>Responsible for the maintenance and care of high voltage tanning
+                equipment, ensuring beds were always in GWO. Conducted on
+                the spot repairs &amp; safety audits as well as disassembling and
+                reassembling units for thorough cleaning. Made my own hours for the service of 34 units between 3 stores. Kept detailed service logs in a database.
+                </p>
+              </div>
+            </div>
+
+                  
+            <div class="container">
+
+              <div class="spreader">
+                <div>
+                  <h4>Pacific Provider</h4>
+                  <h5>Deckhand / Cook</h5>
+                  <div class="dates"><small>2014</small></div>
+                </div>
+                
+                
+                <div>
+                    <div class="righter">Vancouver, BC</div>
+                </div>
+              </div>
+        
+        
+              <div>
+                <p>Owned and operated by a North Vancouver fishing family, the Pacific
+                Provider is a 43-foot fishing boat that travels through the waters
+                around the Queen Charlotte Islands in search of the best catch and
+                using only the most sustainable fishing methods. I had the pleasure of working aboard this boat as deckhand and cook for 4 months off the northern coast of Haida Gwaii.</p>
+              </div>
+            </div>
+            </div>
+              </section>
+          
+              <section id="education">
+                <h3>Training</h3>
+
+                <hr>
+
+                
+          
+                <div class="container">
+                  <div>
+                      <h4>Lighthouse Labs</h4>
+          
+                      <h5>Full Stack Bootcamp</h5>
+                      <div><small>2017</small></div>
+                  </div>
+                  
+                  <div>
+                    <p>
+                      Have come to understand coding logic using popular languages and frameworks like JavaScript &amp; Ruby on Rails, while learning how to think like a programmer by building software from the ground up. At LHL I received mentorship, learned from a data-driven curriculum, and equipped myself with technologies that a savvy junior developer needs in their arsenal.
+                    </p>
+                  </div>
+                </div>
+
+                
+              <div class="meme">
+                <div>
+                  <h4>
+                    Indepentent studies
+                  </h4>
+                </div>
+                <div>
+                  Spent ~2 years learning to program for the web by being dilligent, resourceful and a self starter. Alloting several hours to online education each day, I aquired the skills to do a front-end developer work for paying clients and deliver web products to businesses. 
+                </div>
+                </div>
+              </section>
+          
+              <section id="projects">
+                  <h3>Projects</h3>
+
+                  <hr>
+            
+                  <div>
+                    <ul>
+                      <li> <a href="https://github.com/gitmihalis/news-source-plus">News-Source-Plus</a></li>
+                      <li><a href="https://rocky-mesa-71507.herokuapp.com/">Credible</a></li>
+                      <li><a href="https://github.com/gitmihalis/foodfast-order-pickup-service">Food Fast</a></li>
+                    </ul>
+                  </div>
+                </section>
+                
+                <section id="skills">
+                    <h3>Skillset</h3>
+
+                    <hr>
+              
+                    <div>
+                      <ul>
+                        <li>Languages
+                          <ul>
+                            <li>Ruby</li>
+                            <li>JS</li>
+                            <li>Go</li>
+                            <li>PHP</li>
+                          </ul>
+                        </li>
+                        <li>Frameworks
+                          <ul>
+                            <li>Electron</li>
+                            <li>Ruby on Rails</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li>RSpec</li>
+                            <li>Jasmine</li>
+                          </ul>
+                        </li>
+                        <li>DBs
+                          <ul>
+                            <li>MongoDB</li>
+                            <li>PostgresQL</li>
+                            <li>mySQL</li>
+                            <li>Redis</li>
+                            <li>Bitcoin</li>
+                          </ul>
+                        </li>
+                        <li>DevOps
+                          <ul>
+                            <li>NGINX</li>
+                            <li>Apache</li>
+                            <li>Heroku</li>
+                            <li>Cloudinary</li>
+                            <li>Amazon S3</li>
+                          </ul>
+                        </li>
+                        <li>Design
+                          <ul>
+                            <li>Sketch</li>
+                            <li>PixelMator</li>
+                            <li>PhotoShop</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </section>        
+          
+          
+            </main>
+
+
+      </div>
+      <div class="column col-2"></div>
+    </div>
+    <div class="footer"></div>
+  </div>
+
+  <script>
+var wordmark = document.querySelector('.rainbow-wordmark');
+var wordmarkImg = wordmark.querySelector('.rainbow-wordmark__image');
+var canvas = wordmark.querySelector('.rainbow-wordmark__canvas');
+var wordmarkOverlay = document.querySelector(".rainbow-wordmark__overlay");
+var ctx = canvas.getContext('2d');
+var trailCount = 100;
+var canvasWidth = canvas.width;
+var canvasHeight = canvas.height;
+
+// ----- load image ----- //
+
+var nameImg = new Image();
+nameImg.onload = onWhiteImgLoad;
+nameImg.src = './wordmark-white.png';
+
+function onWhiteImgLoad() {
+  setColorCanvas( 'alpha', '#bf4476' );
+  setColorCanvas( 'beta', '#cf5476' );
+  setColorCanvas( 'gamma', '#df6476' );
+  setColorCanvas( 'delta', '#ef7476' );
+  animate();
+}
+
+var colorCanvases = {};
+
+// get a canvas with the logotype rendered in a color
+function setColorCanvas( name, color ) {
+  var colorCanvas = document.createElement('canvas');
+  colorCanvas.width = nameImg.width;
+  colorCanvas.height = nameImg.height;
+  var colorCtx = colorCanvas.getContext('2d');
+  colorCtx.drawImage( nameImg, 0, 0 );
+  colorCtx.globalCompositeOperation = 'source-in';
+  colorCtx.fillStyle = color;
+  colorCtx.fillRect( 0, 0, nameImg.width, nameImg.height );
+  colorCanvases[ name ] = colorCanvas;
+}
+
+// ----- animate rainbow ----- //
+
+var isHovering = true;
+var t = 0;
+
+var rainbow = [];
+(function() {
+  for ( var i=0; i < trailCount; i++ ) {
+    rainbow.push(null);
+  }
+})();
+
+wordmarkImg.onmouseenter = function() {
+  isHovering = true;
+};
+
+wordmarkImg.onmouseleave = function() {
+  isHovering = false;
+  wordmarkOverlay.style.opacity = 1;
+};
+
+var colorCycle = [ 'alpha', 'beta', 'gamma', 'delta' ];
+
+
+function animate() {
+  update();
+  render();
+  requestAnimationFrame( animate );
+}
+
+
+function update() {
+  t++;
+
+  var colorCycleIndex = Math.floor( t / 8) % 4;
+  var nextColor = isHovering ? colorCycle[ colorCycleIndex ] : null;
+
+  rainbow.pop();
+  rainbow.pop();
+  rainbow.pop();
+  rainbow.unshift( nextColor );
+  rainbow.unshift( nextColor );
+  rainbow.unshift( nextColor );
+}
+
+function render() {
+  ctx.clearRect( 0, 0, canvasWidth, canvasHeight );
+
+  // iterate backwards through rainbow
+  for ( var i = rainbow.length-1; i >= 0; i-- ) {
+    var color = rainbow[i];
+    if ( color ) {
+      ctx.drawImage( colorCanvases[ color ], i+1, i+1 );
+    }
+  }
+}
+
+  
+  </script>
+
+</body>
+</html>
