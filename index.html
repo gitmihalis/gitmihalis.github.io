@@ -17,7 +17,7 @@
   position: relative;
   margin: 100px 10%;
   min-width: 200px;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .rainbow-wordmark__canvas {
@@ -42,29 +42,25 @@
   transition:opacity 1s ease-in-out;
 }
 
-.footer {
-  height: 150px;
-  background: #455DE6;
-  width: 1000%;
-  position: absolute;
-  left: -100px;
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 10.33em;
 }
 
 body {
-  overflow-x: hidden;
-  max-width: 1000px;
-  margin: auto;
+  position: relative;
+  margin: auto 0;
   background: #ddd;
   font-family: "Share Tech Mono", monospace;
 }
+
 
 body:before {
   content: "";
   position: absolute;
   top: -25em;
-  left: -18.75em;
-  bottom: 0;
-  width: 200%;
+  width: 100%;
   z-index: -1;
   height: 33rem;
   transform: skewY(6deg);
@@ -98,8 +94,12 @@ body:before {
 }
 
 .footer {
-  content: "";
-  margin-top: 3.14em;
+  background: #111;
+  height: 5.14em;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 h3 {
@@ -114,7 +114,7 @@ h5 {
 
 .seo-only {
   position: absolute;
-  left: -99999px;
+  left: -9999px;
 }
 
 hr {
@@ -128,6 +128,7 @@ div {
   </style>
 </head>
 <body>
+  <div class="wrapper">
     <h1 class="rainbow-wordmark">
         <canvas class="rainbow-wordmark__canvas" width="1100" height="400"></canvas>
         <img class="rainbow-wordmark__image" src="./wordmark-white.png" alt="Mihalis" />
@@ -562,6 +563,6 @@ function render() {
 
   
   </script>
-
+</div>
 </body>
 </html>
