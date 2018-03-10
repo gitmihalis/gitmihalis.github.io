@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta description="Mihalis Fthenos | Web programmer - Self taught developer from Hamilton, ON experienced with JS / HTML / CSS / NODEJS">
-  <title>Document</title>
+  <title>Mihalis Fthenos - Resume </title>
 
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto Mono" rel="stylesheet"> 
 
   <style>
   .rainbow-wordmark {
@@ -43,7 +43,7 @@
 }
 
 .wrapper {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   padding-bottom: 10.33em;
 }
@@ -52,7 +52,7 @@ body {
   position: relative;
   margin: auto 0;
   background: #ddd;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 
@@ -124,6 +124,24 @@ hr {
 div {
   color: #111;
 }
+#download {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  
+}
+#download a {
+  color: #bf4476;
+}
+
+#skills .container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+#skills .container ul {
+  width: 10em;
+}
 
   </style>
 </head>
@@ -140,6 +158,14 @@ div {
       <div class="column col-8">
           <main>
               <header>
+                <div id="download">
+                  <p>Download this resume</p>
+                  <p style="text-align: center">
+                    <a href="./my-cv.pdf">
+                      <i class="icon icon-2x icon-download"></i>
+                    </a>
+                  </p>
+                </div>
                 
                 <section id="summary">
                   <h3 class="seo-only">Summary</h3>
@@ -305,7 +331,7 @@ div {
 
               <div class="spreader">
                 <div>
-                  <h4>Vancouver Suntan + Banana Tans + Davie Tanning</h4>
+                  <h4>Banana Tans</h4>
                   <h5>Service Technician</h5>
                   <div class="dates"><small>2015 to 2017</small></div>
                 </div>
@@ -406,51 +432,40 @@ div {
 
                     <hr>
               
-                    <div>
+                    <div class="container">
                       <ul>
-                        <li>Languages
-                          <ul>
-                            <li>Ruby</li>
-                            <li>JS</li>
-                            <li>Go</li>
-                            <li>PHP</li>
-                          </ul>
-                        </li>
-                        <li>Frameworks
-                          <ul>
-                            <li>Electron</li>
-                            <li>Ruby on Rails</li>
-                            <li>Express</li>
-                            <li>React</li>
-                            <li>RSpec</li>
-                            <li>Jasmine</li>
-                          </ul>
-                        </li>
-                        <li>DBs
-                          <ul>
-                            <li>MongoDB</li>
-                            <li>PostgresQL</li>
-                            <li>mySQL</li>
-                            <li>Redis</li>
-                            <li>Bitcoin</li>
-                          </ul>
-                        </li>
-                        <li>DevOps
-                          <ul>
-                            <li>NGINX</li>
-                            <li>Apache</li>
-                            <li>Heroku</li>
-                            <li>Cloudinary</li>
-                            <li>Amazon S3</li>
-                          </ul>
-                        </li>
-                        <li>Design
-                          <ul>
-                            <li>Sketch</li>
-                            <li>PixelMator</li>
-                            <li>PhotoShop</li>
-                          </ul>
-                        </li>
+                        <h5> Languages</h5> 
+                        <li>Ruby</li>
+                        <li>JS</li>
+                        <li>Go</li>
+                        <li>PHP</li>
+                      </ul>
+                      <ul> <h5>Frameworks</h5>
+                        <li>Electron</li>
+                        <li>Ruby on Rails</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>RSpec</li>
+                        <li>Jasmine</li>
+                      </ul>
+                      <ul><h5>Databases</h5>
+                        <li>MongoDB</li>
+                        <li>PostgresQL</li>
+                        <li>mySQL</li>
+                        <li>Redis</li>
+                        <li>Bitcoin</li>
+                      </ul>
+                      <ul><h5>DevOps</h5>
+                        <li>NGINX</li>
+                        <li>Apache</li>
+                        <li>Heroku</li>
+                        <li>Cloudinary</li>
+                        <li>Amazon S3</li>
+                      </ul>  
+                      <ul> <h5>Design</h5>
+                        <li>Sketch</li>
+                        <li>PixelMator</li>
+                        <li>PhotoShop</li>
                       </ul>
                     </div>
                   </section>        
