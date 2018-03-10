@@ -125,13 +125,15 @@ div {
   color: #111;
 }
 #download {
-  position: fixed;
-  top: 10px;
-  left: 5px;
-  
+  font-style: italic;
+ text-align: center; 
 }
 #download a {
   color: #bf4476;
+
+}
+#download a:hover {
+  color: white;
 }
 
 #skills .container {
@@ -158,19 +160,21 @@ div {
       <div class="column col-8">
           <main>
               <header>
-                <div id="download">
-                  <p>Download this resume</p>
-                  <p style="text-align: center">
-                    <a href="./my-cv.pdf">
-                      <i class="icon icon-2x icon-download"></i>
-                    </a>
-                  </p>
-                </div>
+
                 
                 <section id="summary">
                   <h3 class="seo-only">Summary</h3>
                   
                   <p>Self taught programmer who’s proficient with JavaScript and a wide array of web tools / frameworks. Created logos, content, and websites for small businesses before going on to develop rapid prototypes with NodeJS &amp; Ruby on Rails. Built automation software that's saved time on workloads by > 64%. Currently interested in using Golang to deploy web-crawlers to do market forecasting.</p>
+                  <div id="download">
+                      <p>Download this resume</p>
+                      <p style="text-align: center">
+                        <a href="./my-cv.pdf">
+                          <i class="icon icon-2x icon-download"></i>
+                        </a>
+                      </p>
+                    </div>
+                  
                   <ul class="inline-list">
                       <li>
                         <a href="mailto:mihalisfthenos@icloud.com">
