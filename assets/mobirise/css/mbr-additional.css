@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
@@ -20,7 +21,7 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
@@ -34,21 +35,21 @@ body {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -129,7 +130,7 @@ body {
   border-radius: 3px;
 }
 .bg-primary {
-  background-color: #4834d4 !important;
+  background-color: #4d62c4 !important;
 }
 .bg-success {
   background-color: #f7ed4a !important;
@@ -145,8 +146,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #4834d4 !important;
-  border-color: #4834d4 !important;
+  background-color: #4d62c4 !important;
+  border-color: #4d62c4 !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -154,14 +155,14 @@ body {
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff !important;
-  background-color: #30219b !important;
-  border-color: #30219b !important;
+  background-color: #314294 !important;
+  border-color: #314294 !important;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #30219b !important;
-  border-color: #30219b !important;
+  background-color: #314294 !important;
+  border-color: #314294 !important;
 }
 .btn-secondary,
 .btn-secondary:active {
@@ -309,22 +310,22 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background: none;
-  border-color: #291c86;
-  color: #291c86;
+  border-color: #2b3a80;
+  color: #2b3a80;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #4834d4;
-  border-color: #4834d4;
+  background-color: #4d62c4;
+  border-color: #4d62c4;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #4834d4 !important;
-  border-color: #4834d4 !important;
+  background-color: #4d62c4 !important;
+  border-color: #4d62c4 !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -461,7 +462,7 @@ body {
   border-color: #ffffff;
 }
 .text-primary {
-  color: #4834d4 !important;
+  color: #4d62c4 !important;
 }
 .text-secondary {
   color: #ff3366 !important;
@@ -486,7 +487,7 @@ body {
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #291c86 !important;
+  color: #2b3a80 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
@@ -544,8 +545,8 @@ a.text-black:focus {
   border-radius: 100px !important;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #4834d4;
-  border-color: #4834d4;
+  background-color: #4d62c4;
+  border-color: #4d62c4;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
@@ -562,11 +563,11 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #4834d4;
+  color: #4d62c4;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #e0dcf8;
+  color: #adb6e4;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -653,7 +654,7 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
@@ -684,7 +685,7 @@ blockquote {
   padding: 10px 0 10px 20px;
   font-size: 1.09rem;
   position: relative;
-  border-color: #4834d4;
+  border-color: #4d62c4;
   border-width: 3px;
 }
 ul,
@@ -772,7 +773,7 @@ pre {
   text-align: center;
   position: relative;
   border: 2px solid #c0a375;
-  border-color: #4834d4;
+  border-color: #4d62c4;
   color: #232323;
   cursor: pointer;
 }
@@ -783,7 +784,7 @@ pre {
 }
 .btn-social:hover {
   color: #fff;
-  background: #4834d4;
+  background: #4d62c4;
 }
 .btn-social + .btn {
   margin-left: .1rem;
@@ -791,11 +792,11 @@ pre {
 /* Footer */
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #4834d4;
+  background: #4d62c4;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #4834d4;
+  color: #4d62c4;
 }
 .footer3 input[type="email"],
 .footer4 input[type="email"] {
@@ -1373,15 +1374,15 @@ body {
   display: none;
 }
 .cid-qRyReVhPuM {
-  padding-top: 45px;
-  padding-bottom: 30px;
-  background-color: #686de0;
+  padding-top: 105px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/mbr-1-1620x1080.jpg");
 }
 .cid-qRyReVhPuM .form-container {
   transition: all .2s;
   border: 1px solid #ffffff;
   padding: 1rem;
-  background: linear-gradient(#badc58, #48cc8c);
+  background: linear-gradient(#ff3366, #7f1933);
   border: none;
 }
 .cid-qRyReVhPuM .input-group-btn {
@@ -1478,7 +1479,7 @@ body {
 .cid-qRAhUZeclz {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #130f40;
+  background-color: #232323;
 }
 .cid-qRAhUZeclz .row-links {
   width: 100%;
