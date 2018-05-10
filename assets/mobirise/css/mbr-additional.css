@@ -1476,6 +1476,24 @@ body {
 .cid-qRA5iCcEw6 .mbr-text {
   color: #767676;
 }
+.cid-qRGJv3phnF {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-qRGJv3phnF .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .cid-qRGJv3phnF .mbr-figure {
+    padding-top: 1rem;
+  }
+}
+.cid-qRGJv3phnF .mbr-text {
+  color: #767676;
+}
 .cid-qRAhUZeclz {
   padding-top: 30px;
   padding-bottom: 30px;
